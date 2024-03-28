@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="./api/signUp.php" method="post">
+                <div class="float">
+                    <span class='logo'>logo here</span>
+                    <h1>Register</h1>
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" placeholder="username@gmail.com">
+                    <label for="Password">Password</label>
+                    <input type="password" name="passwordOne">
+                    <label for="confirm">confirm Password</label>
+                    <input type="password"name="passwordTwo">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone">
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                    <label class='link' for="forgotten_password">Forgotten password?</label>
+                    <button type="submit" name="signup">Sign Up</button>
+                    <div class="social">
+                        <span class='social-label'>or continue with</span>
+                        <div class="con">
+                            <div class="icon">
+                                <img src="./assets/img/google.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="./assets/img/git.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="./assets/img/fb.png" alt="">
+                            </div>
+                        </div>
+                        <p>Have an account <a href="index.html" class='sign-up'>Login</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            <img class="group" src="./assets/img/group.png" alt="">
+            <img class="image" src="./assets/img/image.png" alt="">
+            <img class="patients" src="./assets/img/patients.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

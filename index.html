@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="./api/signIn.php" method="post">
+                <div class="float">
+                    <span class='logo'>logo here</span>
+                    <h1>Login</h1>
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" placeholder="username@gmail.com">
+                    <label for="Password">Password</label>
+                    <input type="password" name="password">
+                    <label class='link' for="forgotten_password">Forgotten password?</label>
+                    <button type="submit" name="signin">Sign In</button>
+                    <div class="social">
+                        <span class='social-label'>or continue with</span>
+                        <div class="con">
+                            <div class="icon">
+                                <img src="./assets/img/google.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="./assets/img/git.png" alt="">
+                            </div>
+                            <div class="icon">
+                                <img src="./assets/img/fb.png" alt="">
+                            </div>
+                        </div>
+                        <p>Don't have an account <a href="signup.html" class='sign-up'>Sign Up</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            
+            <img class="group" src="./assets/img/group.png" alt="">
+            <img class="image" src="./assets/img/image.png" alt="">
+            <img class="patients" src="./assets/img/patients.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
