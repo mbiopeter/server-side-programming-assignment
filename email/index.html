@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+</head>
+
+<body>
+    <h2>Send Email</h2>
+    <form action="send_email.py" method="post">
+        <label for="sender_email">Your Email:</label><br>
+        <input type="email" id="sender_email" name="sender_email" required><br>
+        <label for="sender_password">Your App Password:</label><br>
+        <input type="password" id="sender_password" name="sender_password" required><br>
+        <label for="receiver_email">Recipient's Email:</label><br>
+        <input type="email" id="receiver_email" name="receiver_email" required><br><br>
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+
+</html>
